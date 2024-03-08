@@ -1,0 +1,203 @@
+#mens{
+    background-color: rgb(204, 197, 197);
+}
+
+.collections h2{
+    text-align: center;
+    text-shadow:  1px 1px 5px rgb(57, 54, 55);
+    text-decoration: overline;
+}
+
+.popular{
+    align-items: center;
+}
+
+.product-container{
+    width: 100%;
+    max-height: 100%;
+}
+
+.aboutus{
+    text-align: left;
+    min-height: 90vh;
+}
+
+.aboutus ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.aboutus a{
+    text-align: left;
+    text-decoration: solid;
+    color: black;
+}
+
+.aboutus h3{
+    margin: 0;
+}
+
+
+.footer3{
+  position: sticky;
+  top: 100%;  
+  
+}
+
+
+
+@media screen and (max-width:1000px){
+    header .overlay{
+        width: 100%;
+        height: 100%;
+        margin:auto;
+        
+        padding: 30px;
+        color: #FFF;
+        text-shadow: 1px 1px 1px #333;
+        
+        
+    }
+}
+
+
+#crow{
+    width: 100%;
+}
+#frow{
+    width: 100%;
+}
+
+.noti{
+   padding: 0;
+}
+
+
+.product img{
+    box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.949);    
+}
+
+
+.search{
+    display: inline-block;
+    position: relative;
+}
+
+.search input{
+    width: 220px;
+   padding: 5px;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-left: 6px;
+    margin-bottom: 5px;
+    
+}
+
+.search button{
+    background-color: #d3d3d300;
+    border: none;
+    color: #020202;
+    cursor: pointer;
+    padding:5px 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    object-fit:fill;
+    right:0;
+    bottom:0;
+    filter: opacity(90%);
+    
+    z-index: -1;
+}
+
+
+.nav{
+	background-color: rgba(148, 230, 15, 0.915);
+    
+}
+ 
+ .nav a {
+    text-decoration: none;
+  }
+  
+ .nav {
+    font-family: monospace;
+  }
+  
+  .nav ul {
+    background: rgba(171, 225, 35, 0.082);
+    list-style: none;
+    margin: 0;
+   
+    
+  }
+  
+  .nav li {
+    color: #100f0f;
+    background:rgba(148, 230, 15, 0.915) ;
+    display: block;
+    float: left; 
+   
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  .nav li a {
+    color: #010101;
+  }
+
+  .nav li a:hover{
+    color: rgb(227, 0, 148);
+  }
+  
+  .nav li:hover {
+    background: rgba(224, 226, 226, 0.268);
+    cursor: pointer;
+  }
+  
+  .nav ul li ul {
+    background: rgba(217, 217, 217, 0.196);
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  .nav ul li:hover > ul,
+  .nav ul li:focus-within > ul, /* this is the line we add */
+  .nav ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  .nav ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+
+  

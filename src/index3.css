@@ -1,0 +1,119 @@
+.bundle .carousel-item{
+    background-color: #cccccc;
+    height: 100%;
+    
+}
+
+
+.bundle .card{
+    height:100%;
+    margin-left:20px;
+    background-color: rgba(147, 221, 19, 0.803);
+    color: black;
+    
+}
+
+.bundle img{
+    border-radius: 20px 20px 0 0;
+}
+
+.bundle .card a{
+    color:deeppink;
+    text-decoration: none;
+}
+
+.contact{
+    min-height: 100vh;
+    align-content: center;
+}
+
+.contact iframe{
+    width:100%;
+     height:80vh;
+     }
+
+.contact h6{
+    font-size: larger;
+   
+}
+
+.contact .btn{
+    background-color:chartreuse;
+    font-size: large;
+}
+
+.contact input{
+    border-color: chartreuse;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.contact select{
+    border-color: chartreuse;
+    border-radius: 3px;
+}
+
+.contact textarea{
+    border-color: chartreuse;
+    border-radius: 3px;
+}
+
+.contact .form{
+    width: 100%;
+    height: max-content;
+    background-color: rgba(255, 20, 145, 0.775);
+    border:black ;
+    border-radius: 3px;
+   
+}
+
+#contactno{
+    text-align: center;
+}
+
+#cform h3{
+    text-align: center;
+}
+
+.payway img{
+    width: 50px;
+    height: 40px;
+}
+
+#h1c{
+    color: rgb(255, 20, 145);
+}
+
+#h2c{
+    color: rgb(100, 101, 99);
+}
+
+#h3c img{
+    width: 100%;
+    height:100%;
+   
+        display: block; 
+        border: 2px solid #ccc; 
+        box-shadow: 2px 2px 4px rgb(0, 0, 0); 
+}
+
+.account {
+    min-height: 90vh;
+}
+
+.account input{
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.account a{
+   margin-left: auto;
+   color: deeppink;
+}
+
+.overlay .btnsend{
+    color: black;
+}
+#mid{
+    min-height: 90vh;
+}
